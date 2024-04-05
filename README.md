@@ -8,7 +8,14 @@
 
 ---
 
-![Credentials db](microservice/src/main/resources/static/1.png)
+## Configuración de la base de datos
+
+Por favor, asegúrese de configurar las credenciales de la base de datos en el archivo `application.properties` ubicado en `src/main/resources/application.properties`.
+
+```properties
+spring.datasource.username=your_username
+spring.datasource.password=your_password
+```
 
 ---
 
